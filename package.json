@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm run build:config local && ng serve",
+    "start": "ng serve",
+    "start:local": "npm run build:config local && ng serve",
     "start:dev": "npm run build:config dev && ng serve",
     "start:azure": "npm run build:config azure && ng serve",
     "start:test": "npm run build:config test && ng serve",
