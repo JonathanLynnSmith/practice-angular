@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Debug",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "debug",
+      "url": "http://localhost:4200/",
+    },
+    {
       "name": "Debug Local",
       "type": "node",
       "request": "launch",

@@ -24,44 +24,92 @@ Before you begin, ensure you have the following prerequisites installed:
 
 To run the application with a specific configuration, use the following npm scripts:
 
-- Local Configuration: 
+- Local: 
 
     ```bash
-    npm start
+    npm run start:local
     ```
 
-- Development Configuration:
-
-    ```bash
-    npm run start:dev
-    ```
-
-- Development Beta:
+- Development:
 
     ```bash
     npm run start:dev
     ```
 
-- Production Configuration:
+- Beta:
+
+    ```bash
+    npm run start:dev
+    ```
+
+- Production:
 
     ```bash
     npm run start:prod
     ```
 
-- Test Configuration:
+- Test:
 
     ```bash
     npm run start:test
     ```
 
-- Training Configuration:
+- Training:
 
     ```bash
     npm run start:training
     ```
 
-- Azure Configuration:
+- Azure:
 
     ```bash
     npm run start:azure
+    ```
+
+### Building the Application
+
+To Build the application
+
+To run the application with a specific configuration, use the following npm scripts:
+
+- Local: 
+
+    ```bash
+    npm run build:local
+    ```
+
+- Development:
+
+    ```bash
+    npm run build:dev
+    ```
+
+- Beta:
+
+    ```bash
+    npm run build:dev
+    ```
+
+- Production:
+
+    ```bash
+    npm run build:prod
+    ```
+
+- Test:
+
+    ```bash
+    npm run build:test
+    ```
+
+- Training:
+
+    ```bash
+    npm run build:training
+    ```
+
+- Azure:
+
+    ```bash
+    npm run build:azure
     ```
