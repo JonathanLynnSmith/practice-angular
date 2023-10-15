@@ -1,41 +1,74 @@
 {
   // For more information, visit: https://go.microsoft.com/fwlink/?LinkId=733558
   "version": "2.0.0",
+    "options": {
+        "env": {
+            "config_dir": "${workspaceFolder}/src/config",
+            "setup_config_script": "${workspaceFolder}\\src\\scripts\\copy-config.ps1",
+        }
+    },
   "tasks": [
     {
-      "type": "npm",
-      "script": "start",
-      "isBackground": true,
-      "problemMatcher": {
-        "owner": "typescript",
-        "pattern": "$tsc",
-        "background": {
-          "activeOnStart": true,
-          "beginsPattern": {
-            "regexp": "(.*?)"
-          },
-          "endsPattern": {
-            "regexp": "bundle generation complete"
-          }
-        }
+      "label": "debug-local",
+      "type": "shell",
+      "command": "npm run start",
+      "group": {
+        "kind": "build",
+        "isDefault": true
       }
     },
     {
-      "type": "npm",
-      "script": "test",
-      "isBackground": true,
-      "problemMatcher": {
-        "owner": "typescript",
-        "pattern": "$tsc",
-        "background": {
-          "activeOnStart": true,
-          "beginsPattern": {
-            "regexp": "(.*?)"
-          },
-          "endsPattern": {
-            "regexp": "bundle generation complete"
-          }
-        }
+      "label": "debug-dev",
+      "type": "shell",
+      "command": "npm run start:dev",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "debug-beta",
+      "type": "shell",
+      "command": "npm run start:beta",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "debug-prod",
+      "type": "shell",
+      "command": "npm run start:prod",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "debug-azure",
+      "type": "shell",
+      "command": "npm run start:azure",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "debug-test",
+      "type": "shell",
+      "command": "npm run start:test",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "debug-training",
+      "type": "shell",
+      "command": "npm run start:training",
+      "group": {
+        "kind": "build",
+        "isDefault": true
       }
     }
   ]

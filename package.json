@@ -3,7 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "npm run build:config local && ng serve",
+    "start:dev": "npm run build:config dev && ng serve",
+    "start:azure": "npm run build:config azure && ng serve",
+    "start:test": "npm run build:config test && ng serve",
+    "start:training": "npm run build:config training && ng serve",
+    "start:prod": "npm run build:config prod && ng serve",
+    "build:config": "powershell src\\scripts\\copy-config.ps1",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

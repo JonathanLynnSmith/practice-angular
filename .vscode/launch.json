@@ -1,20 +1,54 @@
 {
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "ng serve",
-      "type": "pwa-chrome",
+      "name": "Debug Local",
+      "type": "node",
       "request": "launch",
-      "preLaunchTask": "npm: start",
+      "preLaunchTask": "debug-local",
+      "url": "http://localhost:4200/",
+    },
+    {
+      "name": "Debug Dev",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "debug-dev",
       "url": "http://localhost:4200/"
     },
     {
-      "name": "ng test",
-      "type": "chrome",
+      "name": "Debug Beta",
+      "type": "node",
       "request": "launch",
-      "preLaunchTask": "npm: test",
-      "url": "http://localhost:9876/debug.html"
+      "preLaunchTask": "debug-beta",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "Debug Prod",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "debug-prod",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "Debug Azure",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "debug-azure",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "Debug Testing",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "debug-test",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "Debug Training",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "debug-training",
+      "url": "http://localhost:4200/"
     }
   ]
 }

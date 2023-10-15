@@ -1,0 +1,18 @@
+{
+  "CONFIGURATION": "beta",
+  "PRODUCTION": false,
+  "EMAIL_API_KEY": "betaApiKey123",
+  "AZURE_SIGNALR_KEY": "betaSignalRKey456",
+  "DASH_HUB_URL": "https://betadashhub.example.com/",
+  "DASH_URL": "http://betadash.example.com/",
+  "DAT_TS_API_URL": "https://beta-datts-api.example.net/",
+  "SIGNALR_URL": "https://beta-signalr-api.example.net/api/",
+  "emailApiTemplate_beforeTitle": "<beta-email-template>",
+  "emailApiTemplate_afterTitle": "</beta-email-template>",
+  "emailApiTemplate_afterName": "Beta User",
+  "emailApiTemplate_afterDescription": "This is a beta description.",
+  "emailApiTemplate_afterMessage": "This is a beta message.",
+  "emailApiTemplate_security": "Beta security information.",
+  "emailApiTemplate_afterSecurity": "Beta security footer.",
+  "emailApiTemplate_footerText": "Beta footer text"
+}

@@ -1,0 +1,18 @@
+{
+  "CONFIGURATION": "dev",
+  "PRODUCTION": false,
+  "EMAIL_API_KEY": "devApiKey123",
+  "AZURE_SIGNALR_KEY": "devSignalRKey456",
+  "DASH_HUB_URL": "https://devdashhub.example.com/",
+  "DASH_URL": "http://devdash.example.com/",
+  "DAT_TS_API_URL": "https://dev-datts-api.example.net/",
+  "SIGNALR_URL": "https://dev-signalr-api.example.net/api/",
+  "emailApiTemplate_beforeTitle": "<dev-email-template>",
+  "emailApiTemplate_afterTitle": "</dev-email-template>",
+  "emailApiTemplate_afterName": "Dev User",
+  "emailApiTemplate_afterDescription": "This is a dev description.",
+  "emailApiTemplate_afterMessage": "This is a dev message.",
+  "emailApiTemplate_security": "Dev security information.",
+  "emailApiTemplate_afterSecurity": "Dev security footer.",
+  "emailApiTemplate_footerText": "Dev footer text"
+}

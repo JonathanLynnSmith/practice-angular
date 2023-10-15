@@ -1,0 +1,18 @@
+{
+  "CONFIGURATION": "training",
+  "PRODUCTION": false,
+  "EMAIL_API_KEY": "trainingApiKey123",
+  "AZURE_SIGNALR_KEY": "trainingSignalRKey456",
+  "DASH_HUB_URL": "https://trainingdashhub.example.com/",
+  "DASH_URL": "http://trainingdash.example.com/",
+  "DAT_TS_API_URL": "https://training-datts-api.example.net/",
+  "SIGNALR_URL": "https://training-signalr-api.example.net/api/",
+  "emailApiTemplate_beforeTitle": "<training-email-template>",
+  "emailApiTemplate_afterTitle": "</training-email-template>",
+  "emailApiTemplate_afterName": "Training User",
+  "emailApiTemplate_afterDescription": "This is a training description.",
+  "emailApiTemplate_afterMessage": "This is a training message.",
+  "emailApiTemplate_security": "Training security information.",
+  "emailApiTemplate_afterSecurity": "Training security footer.",
+  "emailApiTemplate_footerText": "Training footer text"
+}

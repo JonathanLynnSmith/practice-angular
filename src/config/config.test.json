@@ -1,0 +1,18 @@
+{
+  "CONFIGURATION": "test",
+  "PRODUCTION": false,
+  "EMAIL_API_KEY": "testApiKey123",
+  "AZURE_SIGNALR_KEY": "testSignalRKey456",
+  "DASH_HUB_URL": "https://testdashhub.example.com/",
+  "DASH_URL": "http://testdash.example.com/",
+  "DAT_TS_API_URL": "https://test-datts-api.example.net/",
+  "SIGNALR_URL": "https://test-signalr-api.example.net/api/",
+  "emailApiTemplate_beforeTitle": "<test-email-template>",
+  "emailApiTemplate_afterTitle": "</test-email-template>",
+  "emailApiTemplate_afterName": "Test User",
+  "emailApiTemplate_afterDescription": "This is a test description.",
+  "emailApiTemplate_afterMessage": "This is a test message.",
+  "emailApiTemplate_security": "Test security information.",
+  "emailApiTemplate_afterSecurity": "Test security footer.",
+  "emailApiTemplate_footerText": "Test footer text"
+}

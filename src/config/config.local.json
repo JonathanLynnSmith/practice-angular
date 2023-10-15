@@ -1,0 +1,18 @@
+{
+  "CONFIGURATION": "local",
+  "PRODUCTION": false,
+  "EMAIL_API_KEY": "localApiKey123",
+  "AZURE_SIGNALR_KEY": "localSignalRKey456",
+  "DASH_HUB_URL": "https://localdashhub.example.com/",
+  "DASH_URL": "http://localdash.example.com/",
+  "DAT_TS_API_URL": "https://local-datts-api.example.net/",
+  "SIGNALR_URL": "https://local-signalr-api.example.net/api/",
+  "emailApiTemplate_beforeTitle": "<local-email-template>",
+  "emailApiTemplate_afterTitle": "</local-email-template>",
+  "emailApiTemplate_afterName": "Local User",
+  "emailApiTemplate_afterDescription": "This is a local description.",
+  "emailApiTemplate_afterMessage": "This is a local message.",
+  "emailApiTemplate_security": "Local security information.",
+  "emailApiTemplate_afterSecurity": "Local security footer.",
+  "emailApiTemplate_footerText": "Local footer text"
+}

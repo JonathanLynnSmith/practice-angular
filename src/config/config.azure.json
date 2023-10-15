@@ -1,0 +1,18 @@
+{
+  "CONFIGURATION": "azure",
+  "PRODUCTION": true,
+  "EMAIL_API_KEY": "azureApiKey123",
+  "AZURE_SIGNALR_KEY": "azureSignalRKey456",
+  "DASH_HUB_URL": "https://azuredashhub.example.com/",
+  "DASH_URL": "http://azuredash.example.com/",
+  "DAT_TS_API_URL": "https://azure-datts-api.example.net/",
+  "SIGNALR_URL": "https://azure-signalr-api.example.net/api/",
+  "emailApiTemplate_beforeTitle": "<azure-email-template>",
+  "emailApiTemplate_afterTitle": "</azure-email-template>",
+  "emailApiTemplate_afterName": "Azure User",
+  "emailApiTemplate_afterDescription": "This is an Azure description.",
+  "emailApiTemplate_afterMessage": "This is an Azure message.",
+  "emailApiTemplate_security": "Azure security information.",
+  "emailApiTemplate_afterSecurity": "Azure security footer.",
+  "emailApiTemplate_footerText": "Azure footer text"
+}

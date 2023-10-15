@@ -1,27 +1,67 @@
-# PocAngularConfig
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+# Angular Project with Multiple JSON Configurations
 
-## Development server
+This Angular project demonstrates how to use different configurations for various environments (local, dev, azure, test, training, prod) using Angular CLI.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Prerequisites
 
-## Code scaffolding
+Before you begin, ensure you have the following prerequisites installed:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Node.js](https://nodejs.org/) (with npm)
+- [Angular CLI](https://angular.io/cli)
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Install project dependencies:
 
-## Running unit tests
+    ```bash
+    npm install
+    ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Usage
 
-## Running end-to-end tests
+### Running the Application
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+To run the application with a specific configuration, use the following npm scripts:
 
-## Further help
+- Local Configuration: 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    ```bash
+    npm start
+    ```
+
+- Development Configuration:
+
+    ```bash
+    npm run start:dev
+    ```
+
+- Development Beta:
+
+    ```bash
+    npm run start:dev
+    ```
+
+- Production Configuration:
+
+    ```bash
+    npm run start:prod
+    ```
+
+- Test Configuration:
+
+    ```bash
+    npm run start:test
+    ```
+
+- Training Configuration:
+
+    ```bash
+    npm run start:training
+    ```
+
+- Azure Configuration:
+
+    ```bash
+    npm run start:azure
+    ```
