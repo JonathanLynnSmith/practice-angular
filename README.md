@@ -24,7 +24,13 @@ Before you begin, ensure you have the following prerequisites installed:
 
 To run the application with a specific configuration, use the following npm scripts:
 
-- Local: 
+- Current config or default (config.local.json)
+
+    ```bash
+    npm run start
+    ```
+
+- Local:
 
     ```bash
     npm run start:local
@@ -68,11 +74,15 @@ To run the application with a specific configuration, use the following npm scri
 
 ### Building the Application
 
-To Build the application
+To build the application with a specific configuration, use the following npm scripts:
 
-To run the application with a specific configuration, use the following npm scripts:
+- Current config or default (config.local.json)
 
-- Local: 
+    ```bash
+    npm run build
+    ```
+
+- Local:
 
     ```bash
     npm run build:local
